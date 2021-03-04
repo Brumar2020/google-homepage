@@ -1,0 +1,141 @@
+@media (min-width:640px) {
+
+.navigation {
+        font-size: 15px;
+        position: absolute;
+        right: 10px;
+        box-sizing: border-box;
+}
+
+.headers {
+    display: inline-block;
+}
+
+a {
+    color: black;
+}
+
+.container {
+    box-sizing: border-box;
+    margin-top: 10rem;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-inline-end: 1rem;
+    float: left;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+svg {
+    height: 1.5rem;
+    margin-top: .55rem;
+    margin-inline-end: 1.1rem;
+    border: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+
+.dots:hover {
+    background-color: rgba(223, 226, 223, 0.856);
+    border-radius: 50%;
+    border: solid;
+    border-width: 4px;
+    border-color:  rgba(223, 226, 223, 0.856);
+}
+
+.snin {
+    background-color: #1a73e8;
+    height: 2.2rem;
+    width: 5.5rem;
+    border-style: none;
+    border-radius: .25rem;
+    color: white;
+    float: right;
+    margin-top: .45rem;
+}
+
+.snin:hover {
+    background-color: #4289e6;
+    cursor: pointer;
+}
+
+
+#logo {
+    display: block;
+    width: 272px;
+    height: 92 px;
+    margin: 0 auto 2rem auto;
+}
+
+.search-bar {
+    display: block;
+    width: 38rem;
+    height: 2.75rem;
+    border-radius: 2.5rem;
+    border-color: rgba(223, 226, 223, 0.856);
+    border-style: solid;
+    outline: none;
+    margin: 0 auto 0 auto;
+}
+
+.search-bar:hover {
+    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(200, 202, 200, 0.856)
+}
+
+#search {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.srchbttn {
+    display: block;
+    width: 20.5rem;
+    margin: 3rem auto 0 auto;
+    box-sizing: border-box;
+}
+
+#gsrch {
+    margin-inline-end: 4rem;
+}
+
+#gsrch,
+#lucky {
+    height: 2rem;
+    width: 8rem;
+    border-style: none;
+    background-color: rgba(223, 226, 223, 0.856);
+    border-radius: 5px;
+}
+
+#gsrch:hover {
+    border: rgba(200, 202, 200, 0.856);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(200, 202, 200, 0.856);
+    cursor: pointer;
+}
+
+#lucky:hover {
+    border: rgba(200, 202, 200, 0.856);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(200, 202, 200, 0.856);
+    cursor: pointer;
+}
+
+}
+
+}
+
+
+
+
+
