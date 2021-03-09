@@ -81,6 +81,9 @@ svg {
     border-style: solid;
     outline: none;
     margin: 0 auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding-left: 50px;
 }
 
 .search-bar:hover {
@@ -88,52 +91,87 @@ svg {
     box-shadow: 0px 0px 5px rgba(200, 202, 200, 0.856)
 }
 
-#search {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+.inputcontainer {
+    position: relative;
+    padding: 0;
+    margin: 0;
 }
 
-.srchbttn {
-    display: block;
-    width: 20.5rem;
-    margin: 3rem auto 0 auto;
+#glass {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    bottom: 15px;
+    left: 360px;
+} 
+
+#mic {
+    height: 22px;
+    width: 18px;
+    position: absolute;
+    bottom: 15px;
+    left: 965px;
+} 
+
+
+.links {
     box-sizing: border-box;
+    display: block;
+    width: 22rem;
+    margin: 2rem auto 0 auto;
 }
 
-#gsrch {
-    margin-inline-end: 4rem;
+.tiles {
+    display:inline-block;
+    height: 112px;
+    width: 112px;
 }
 
-#gsrch,
-#lucky {
-    height: 2rem;
-    width: 8rem;
-    border-style: none;
-    background-color: rgba(223, 226, 223, 0.856);
-    border-radius: 5px;
+.tiles:hover {
+    background-color: rgba(200, 202, 200, 0.856);
+    border-radius: 3px;
 }
 
-#gsrch:hover {
-    border: rgba(200, 202, 200, 0.856);
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    box-shadow: 0 0 2px rgba(200, 202, 200, 0.856);
-    cursor: pointer;
+.gthb,
+.top,
+.fcc {
+    display: block;
+    height: 48px;
+    width: 48px;
+    background-color: rgba(241, 241, 241, 0.856);
+    border-radius: 50%;
+    margin: 1.5rem auto 0 auto;
 }
 
-#lucky:hover {
-    border: rgba(200, 202, 200, 0.856);
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    box-shadow: 0 0 2px rgba(200, 202, 200, 0.856);
-    cursor: pointer;
+#first,
+#second,
+#third {
+    display: block;
+    height: 24px;
+    width: 24px;
+    margin: 0 auto 0 auto;
+    padding-top: 11px;
 }
+
+.tiletitle {
+    font-family: inherit;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#br {
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
 
 }
 
-}
+
 
 
 
